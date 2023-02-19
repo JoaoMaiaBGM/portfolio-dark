@@ -1,10 +1,9 @@
 import { styled } from "@/styles/stitches.config";
 import { Flex } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
-import { css } from "@stitches/react";
 
-import meIlustration from "@/public/static/img/background/me-ilustration.svg";
 import backgroundImg from "@/public/static/img/background/header-bg.svg";
+import bgImg2 from "@/public/static/img/background/bgImg2.jpg";
 
 import dots from "@/public/static/img/background/dots.svg";
 
