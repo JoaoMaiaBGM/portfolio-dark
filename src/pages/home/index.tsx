@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/portfolio-dark`;
 
   return (
     <main id="home">
@@ -47,19 +47,19 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              I love{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                challenges
               </Text>{" "}
-              creating and{" "}
+              and{" "}
               <Text as="span" type="heading1" color="brand1">
                 developing
               </Text>{" "}
               projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              This is my portfolio created especially for you. Here you can
+              discover all my projects and technologies
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
